@@ -97,7 +97,7 @@
             this.wheelsName.Name = "wheelsName";
             this.wheelsName.Size = new System.Drawing.Size(100, 20);
             this.wheelsName.TabIndex = 2;
-            this.wheelsName.TextChanged += new System.EventHandler(this.wheelsName_TextChanged);
+            this.wheelsName.TextChanged += new System.EventHandler(this.charBox_SelectedIndexChanged);
             // 
             // label2
             // 
@@ -124,7 +124,7 @@
             this.wheelsSize.Name = "wheelsSize";
             this.wheelsSize.Size = new System.Drawing.Size(83, 20);
             this.wheelsSize.TabIndex = 4;
-            this.wheelsSize.ValueChanged += new System.EventHandler(this.wheelsSize_ValueChanged);
+            this.wheelsSize.ValueChanged += new System.EventHandler(this.numUpDown_ValueChanged);
             // 
             // label3
             // 
@@ -151,7 +151,7 @@
             this.XFL.Name = "XFL";
             this.XFL.Size = new System.Drawing.Size(71, 20);
             this.XFL.TabIndex = 6;
-            this.XFL.ValueChanged += new System.EventHandler(this.XFL_ValueChanged);
+            this.XFL.ValueChanged += new System.EventHandler(this.numUpDown_ValueChanged);
             // 
             // YFL
             // 
@@ -169,7 +169,7 @@
             this.YFL.Name = "YFL";
             this.YFL.Size = new System.Drawing.Size(71, 20);
             this.YFL.TabIndex = 7;
-            this.YFL.ValueChanged += new System.EventHandler(this.YFL_ValueChanged);
+            this.YFL.ValueChanged += new System.EventHandler(this.numUpDown_ValueChanged);
             // 
             // ZFL
             // 
@@ -187,7 +187,7 @@
             this.ZFL.Name = "ZFL";
             this.ZFL.Size = new System.Drawing.Size(71, 20);
             this.ZFL.TabIndex = 8;
-            this.ZFL.ValueChanged += new System.EventHandler(this.ZFL_ValueChanged);
+            this.ZFL.ValueChanged += new System.EventHandler(this.numUpDown_ValueChanged);
             // 
             // ZFR
             // 
@@ -205,7 +205,7 @@
             this.ZFR.Name = "ZFR";
             this.ZFR.Size = new System.Drawing.Size(71, 20);
             this.ZFR.TabIndex = 11;
-            this.ZFR.ValueChanged += new System.EventHandler(this.ZFR_ValueChanged);
+            this.ZFR.ValueChanged += new System.EventHandler(this.numUpDown_ValueChanged);
             // 
             // YFR
             // 
@@ -223,7 +223,7 @@
             this.YFR.Name = "YFR";
             this.YFR.Size = new System.Drawing.Size(71, 20);
             this.YFR.TabIndex = 10;
-            this.YFR.ValueChanged += new System.EventHandler(this.YFR_ValueChanged);
+            this.YFR.ValueChanged += new System.EventHandler(this.numUpDown_ValueChanged);
             // 
             // XFR
             // 
@@ -241,7 +241,7 @@
             this.XFR.Name = "XFR";
             this.XFR.Size = new System.Drawing.Size(71, 20);
             this.XFR.TabIndex = 9;
-            this.XFR.ValueChanged += new System.EventHandler(this.XFR_ValueChanged);
+            this.XFR.ValueChanged += new System.EventHandler(this.numUpDown_ValueChanged);
             // 
             // ZBL
             // 
@@ -259,7 +259,7 @@
             this.ZBL.Name = "ZBL";
             this.ZBL.Size = new System.Drawing.Size(71, 20);
             this.ZBL.TabIndex = 14;
-            this.ZBL.ValueChanged += new System.EventHandler(this.ZBL_ValueChanged);
+            this.ZBL.ValueChanged += new System.EventHandler(this.numUpDown_ValueChanged);
             // 
             // YBL
             // 
@@ -277,7 +277,7 @@
             this.YBL.Name = "YBL";
             this.YBL.Size = new System.Drawing.Size(71, 20);
             this.YBL.TabIndex = 13;
-            this.YBL.ValueChanged += new System.EventHandler(this.YBL_ValueChanged);
+            this.YBL.ValueChanged += new System.EventHandler(this.numUpDown_ValueChanged);
             // 
             // XBL
             // 
@@ -295,7 +295,7 @@
             this.XBL.Name = "XBL";
             this.XBL.Size = new System.Drawing.Size(71, 20);
             this.XBL.TabIndex = 12;
-            this.XBL.ValueChanged += new System.EventHandler(this.XBL_ValueChanged);
+            this.XBL.ValueChanged += new System.EventHandler(this.numUpDown_ValueChanged);
             // 
             // ZBR
             // 
@@ -313,7 +313,7 @@
             this.ZBR.Name = "ZBR";
             this.ZBR.Size = new System.Drawing.Size(71, 20);
             this.ZBR.TabIndex = 17;
-            this.ZBR.ValueChanged += new System.EventHandler(this.ZBR_ValueChanged);
+            this.ZBR.ValueChanged += new System.EventHandler(this.numUpDown_ValueChanged);
             // 
             // YBR
             // 
@@ -331,7 +331,7 @@
             this.YBR.Name = "YBR";
             this.YBR.Size = new System.Drawing.Size(71, 20);
             this.YBR.TabIndex = 16;
-            this.YBR.ValueChanged += new System.EventHandler(this.YBR_ValueChanged);
+            this.YBR.ValueChanged += new System.EventHandler(this.numUpDown_ValueChanged);
             // 
             // XBR
             // 
@@ -349,7 +349,7 @@
             this.XBR.Name = "XBR";
             this.XBR.Size = new System.Drawing.Size(71, 20);
             this.XBR.TabIndex = 15;
-            this.XBR.ValueChanged += new System.EventHandler(this.XBR_ValueChanged);
+            this.XBR.ValueChanged += new System.EventHandler(this.numUpDown_ValueChanged);
             // 
             // label4
             // 
@@ -435,7 +435,7 @@
             this.charX.Name = "charX";
             this.charX.Size = new System.Drawing.Size(79, 20);
             this.charX.TabIndex = 24;
-            this.charX.ValueChanged += new System.EventHandler(this.charX_ValueChanged);
+            this.charX.ValueChanged += new System.EventHandler(this.numUpDown_ValueChanged);
             // 
             // charY
             // 
@@ -453,7 +453,7 @@
             this.charY.Name = "charY";
             this.charY.Size = new System.Drawing.Size(79, 20);
             this.charY.TabIndex = 25;
-            this.charY.ValueChanged += new System.EventHandler(this.charY_ValueChanged);
+            this.charY.ValueChanged += new System.EventHandler(this.numUpDown_ValueChanged);
             // 
             // charZ
             // 
@@ -471,7 +471,7 @@
             this.charZ.Name = "charZ";
             this.charZ.Size = new System.Drawing.Size(79, 20);
             this.charZ.TabIndex = 26;
-            this.charZ.ValueChanged += new System.EventHandler(this.charZ_ValueChanged);
+            this.charZ.ValueChanged += new System.EventHandler(this.numUpDown_ValueChanged);
             // 
             // button1
             // 
@@ -550,7 +550,7 @@
             this.kartID.Name = "kartID";
             this.kartID.Size = new System.Drawing.Size(154, 21);
             this.kartID.TabIndex = 30;
-            this.kartID.SelectedIndexChanged += new System.EventHandler(this.kartID_SelectedIndexChanged);
+            this.kartID.SelectedIndexChanged += new System.EventHandler(this.charBox_SelectedIndexChanged);
             // 
             // saveButton
             // 

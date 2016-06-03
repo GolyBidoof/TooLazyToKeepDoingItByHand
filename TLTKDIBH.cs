@@ -83,13 +83,6 @@ namespace TooLazyToKeepDoingItByHand
             charZ.Value = BitConverter.ToInt32(bytes, 76 + charBox.SelectedIndex * 12 + blockLength * currentID);
         }
 
-        private void currentIDMeter_ValueChanged(object sender, EventArgs e)
-        {
-            loaded = false;
-            processFile();
-            loaded = true;
-        }
-
         private void charBox_SelectedIndexChanged(object sender, EventArgs e)
         {
             loaded = false;
@@ -97,30 +90,7 @@ namespace TooLazyToKeepDoingItByHand
             loaded = true;
         }
 
-        private void kartID_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            loaded = false;
-            processFile();
-            loaded = true;
-        }
-
-        private void ZFL_ValueChanged(object sender, EventArgs e) { if (loaded) saveBackTehFile(); }
-        private void YFL_ValueChanged(object sender, EventArgs e) { if (loaded) saveBackTehFile(); }
-        private void XFL_ValueChanged(object sender, EventArgs e) { if (loaded) saveBackTehFile(); }
-        private void ZFR_ValueChanged(object sender, EventArgs e) { if (loaded) saveBackTehFile(); }
-        private void YFR_ValueChanged(object sender, EventArgs e) { if (loaded) saveBackTehFile(); }
-        private void XFR_ValueChanged(object sender, EventArgs e) { if (loaded) saveBackTehFile(); }
-        private void ZBL_ValueChanged(object sender, EventArgs e) { if (loaded) saveBackTehFile(); }
-        private void YBL_ValueChanged(object sender, EventArgs e) { if (loaded) saveBackTehFile(); }
-        private void XBL_ValueChanged(object sender, EventArgs e) { if (loaded) saveBackTehFile(); }
-        private void ZBR_ValueChanged(object sender, EventArgs e) { if (loaded) saveBackTehFile(); }
-        private void YBR_ValueChanged(object sender, EventArgs e) { if (loaded) saveBackTehFile(); }
-        private void XBR_ValueChanged(object sender, EventArgs e) { if (loaded) saveBackTehFile(); }
-        private void charX_ValueChanged(object sender, EventArgs e) { if (loaded) saveBackTehFile(); }
-        private void charY_ValueChanged(object sender, EventArgs e) { if (loaded) saveBackTehFile(); }
-        private void charZ_ValueChanged(object sender, EventArgs e) { if (loaded) saveBackTehFile(); }
-        private void wheelsSize_ValueChanged(object sender, EventArgs e) { if (loaded) saveBackTehFile(); }
-        private void wheelsName_TextChanged(object sender, EventArgs e) { if (loaded) saveBackTehFile(); }
+        private void numUpDown_ValueChanged(object sender, EventArgs e) { if (loaded) saveBackTehFile(); }
 
         private void saveBackTehFile()
         {
