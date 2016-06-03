@@ -63,7 +63,7 @@ namespace TooLazyToKeepDoingItByHand
             int currentID = (int) kartID.SelectedIndex;
             byte[] tempString = new byte[11];
             Array.Copy(bytes, 0 + blockLength * currentID, tempString, 0, 11);
-            wheelsName.Text = System.Text.Encoding.ASCII.GetString(tempString);
+            wheelsName.Text = System.Text.Encoding.Default.GetString(tempString).TrimEnd('\0');
             wheelsSize.Value = BitConverter.ToInt32(bytes, 16 + blockLength * currentID);
             XFL.Value = BitConverter.ToInt32(bytes, 20 + blockLength * currentID);
             YFL.Value = BitConverter.ToInt32(bytes, 24 + blockLength * currentID);
