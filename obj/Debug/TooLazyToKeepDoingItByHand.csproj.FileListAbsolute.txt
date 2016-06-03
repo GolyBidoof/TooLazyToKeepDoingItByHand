@@ -1,0 +1,9 @@
+c:\users\szymb\documents\visual studio 2015\Projects\TooLazyToKeepDoingItByHand\TooLazyToKeepDoingItByHand\bin\Debug\TooLazyToKeepDoingItByHand.exe.config
+c:\users\szymb\documents\visual studio 2015\Projects\TooLazyToKeepDoingItByHand\TooLazyToKeepDoingItByHand\bin\Debug\TooLazyToKeepDoingItByHand.exe
+c:\users\szymb\documents\visual studio 2015\Projects\TooLazyToKeepDoingItByHand\TooLazyToKeepDoingItByHand\bin\Debug\TooLazyToKeepDoingItByHand.pdb
+c:\users\szymb\documents\visual studio 2015\Projects\TooLazyToKeepDoingItByHand\TooLazyToKeepDoingItByHand\obj\Debug\TooLazyToKeepDoingItByHand.csprojResolveAssemblyReference.cache
+c:\users\szymb\documents\visual studio 2015\Projects\TooLazyToKeepDoingItByHand\TooLazyToKeepDoingItByHand\obj\Debug\TooLazyToKeepDoingItByHand.TLTDIBH.resources
+c:\users\szymb\documents\visual studio 2015\Projects\TooLazyToKeepDoingItByHand\TooLazyToKeepDoingItByHand\obj\Debug\TooLazyToKeepDoingItByHand.Properties.Resources.resources
+c:\users\szymb\documents\visual studio 2015\Projects\TooLazyToKeepDoingItByHand\TooLazyToKeepDoingItByHand\obj\Debug\TooLazyToKeepDoingItByHand.csproj.GenerateResource.Cache
+c:\users\szymb\documents\visual studio 2015\Projects\TooLazyToKeepDoingItByHand\TooLazyToKeepDoingItByHand\obj\Debug\TooLazyToKeepDoingItByHand.exe
+c:\users\szymb\documents\visual studio 2015\Projects\TooLazyToKeepDoingItByHand\TooLazyToKeepDoingItByHand\obj\Debug\TooLazyToKeepDoingItByHand.pdb

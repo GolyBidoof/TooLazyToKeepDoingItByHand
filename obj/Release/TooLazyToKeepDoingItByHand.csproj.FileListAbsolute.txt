@@ -1,0 +1,8 @@
+c:\users\szymb\documents\visual studio 2015\Projects\TooLazyToKeepDoingItByHand\TooLazyToKeepDoingItByHand\bin\Release\TooLazyToKeepDoingItByHand.exe.config
+c:\users\szymb\documents\visual studio 2015\Projects\TooLazyToKeepDoingItByHand\TooLazyToKeepDoingItByHand\bin\Release\TooLazyToKeepDoingItByHand.exe
+c:\users\szymb\documents\visual studio 2015\Projects\TooLazyToKeepDoingItByHand\TooLazyToKeepDoingItByHand\bin\Release\TooLazyToKeepDoingItByHand.pdb
+c:\users\szymb\documents\visual studio 2015\Projects\TooLazyToKeepDoingItByHand\TooLazyToKeepDoingItByHand\obj\Release\TooLazyToKeepDoingItByHand.TLTDIBH.resources
+c:\users\szymb\documents\visual studio 2015\Projects\TooLazyToKeepDoingItByHand\TooLazyToKeepDoingItByHand\obj\Release\TooLazyToKeepDoingItByHand.Properties.Resources.resources
+c:\users\szymb\documents\visual studio 2015\Projects\TooLazyToKeepDoingItByHand\TooLazyToKeepDoingItByHand\obj\Release\TooLazyToKeepDoingItByHand.csproj.GenerateResource.Cache
+c:\users\szymb\documents\visual studio 2015\Projects\TooLazyToKeepDoingItByHand\TooLazyToKeepDoingItByHand\obj\Release\TooLazyToKeepDoingItByHand.exe
+c:\users\szymb\documents\visual studio 2015\Projects\TooLazyToKeepDoingItByHand\TooLazyToKeepDoingItByHand\obj\Release\TooLazyToKeepDoingItByHand.pdb
