@@ -97,7 +97,7 @@
             this.wheelsName.Name = "wheelsName";
             this.wheelsName.Size = new System.Drawing.Size(100, 20);
             this.wheelsName.TabIndex = 2;
-            this.wheelsName.TextChanged += new System.EventHandler(this.charBox_SelectedIndexChanged);
+            this.wheelsName.TextChanged += new System.EventHandler(this.numUpDown_ValueChanged);
             // 
             // label2
             // 
